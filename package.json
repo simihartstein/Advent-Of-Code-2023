@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Advent of Code 2023",
   "scripts": {
-    "dec1": "ts-node December1/index.ts"
+    "dec1": "ts-node December1/index.ts",
+    "dec2": "ts-node December2/index.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.55.0",
+    "prettier": "3.1.0",
     "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
     "typescript": "^5.3.2"
   }
 }
